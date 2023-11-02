@@ -31,7 +31,7 @@ Before(() => {
 
 beforeEach(() =>{
   expect(1).to.eql(1)
-  // Step(this, 'I do some hypothetical pre test setup')
+  Step(this, 'I do some hypothetical pre test setup')
 })
 
 After(() => {
@@ -41,5 +41,5 @@ After(() => {
 
 afterEach(() => {
   expect(1).to.eql(1)
-  // Step(this, 'I do some post hypothetical test cleanup')
+  Step(this, 'I do some post hypothetical test cleanup')
 })
